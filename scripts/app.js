@@ -20,7 +20,7 @@ const updateUI = (data)=>{
      `;
 
     // update the dayand night icon images
-    let timeSrc = weather.IsdayTime ? 'img/day.svg' :'img/night.svg' ;
+    let timeSrc = weather.IsDayTime ? 'img/day.svg' :'img/night.svg' ;
     time.setAttribute('src',timeSrc); 
 
     // updating the icon packages
